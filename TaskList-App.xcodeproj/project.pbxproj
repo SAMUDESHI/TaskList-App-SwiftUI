@@ -51,8 +51,12 @@
 		93BF4F2A288AF33200BF3012 /* TaskList-App */ = {
 			isa = PBXGroup;
 			children = (
-				93BF4F2B288AF33200BF3012 /* TaskList_AppApp.swift */,
-				93BF4F2D288AF33200BF3012 /* ContentView.swift */,
+				93BF4F3E288AF72400BF3012 /* Managers */,
+				93BF4F3D288AF71C00BF3012 /* Protocols */,
+				93BF4F3C288AF6EF00BF3012 /* App */,
+				93BF4F3B288AF6E400BF3012 /* Models */,
+				93BF4F3A288AF6DB00BF3012 /* View */,
+				93BF4F39288AF6D400BF3012 /* ViewModel */,
 				93BF4F2F288AF33300BF3012 /* Assets.xcassets */,
 				93BF4F31288AF33300BF3012 /* Preview Content */,
 			);
@@ -65,6 +69,50 @@
 				93BF4F32288AF33300BF3012 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93BF4F39288AF6D400BF3012 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		93BF4F3A288AF6DB00BF3012 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93BF4F2D288AF33200BF3012 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93BF4F3B288AF6E400BF3012 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93BF4F3C288AF6EF00BF3012 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				93BF4F2B288AF33200BF3012 /* TaskList_AppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		93BF4F3D288AF71C00BF3012 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		93BF4F3E288AF72400BF3012 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
